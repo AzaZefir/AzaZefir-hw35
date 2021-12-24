@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw35</title>
+</head>
+
+<body>
+    Задание
+    Создайте одну глобальную переменную с произвольным значением и две функции.
+    Продемонстрируйте, что глобальная переменная может использоваться в этих двух функциях
+
+
+    <Script>
+        let a = "global";
+        let b = "host"
+
+
+        function test(){
+            console.log(a);
+        }
+        test();
+        function test1(){
+            console.log(b);
+        }
+        test1();
+        alert(`${a} ${b}`)
+
+
+    </Script>
+</body>
+
+</html>
